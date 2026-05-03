@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { normalizeImageSource } from "../utils/normalizeImageSource.js";
 
 export function ProductImage({ product, className = "", imageClassName = "object-contain p-6", fallbackClassName = "text-3xl" }) {
   const source = useMemo(() => {
@@ -25,19 +26,4 @@ export function ProductImage({ product, className = "", imageClassName = "object
       )}
     </div>
   );
-}
-
-function normalizeImageSource(source) {
-  if (!source || typeof window === "undefined") return source;
-
-  try {
-    const url = new URL(source, window.location.origin);
-    if (url.pathname.startsWith("/media/") && ["localhost", "127.0.0.1"].includes(url.hostname)) {
-      return `${url.pathname}${url.search}`;
-    }
-  } catch {
-    return source;
-  }
-
-  return source;
 }

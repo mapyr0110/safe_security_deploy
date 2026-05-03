@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useLocalizedCatalog } from "../shared/hooks/useLocalizedCatalog.js";
 import { usePreferences } from "../shared/i18n/AppPreferences.jsx";
+import { normalizeImageSource } from "../shared/utils/normalizeImageSource.js";
 
 export function BlogPage() {
   const { blogPosts } = useLocalizedCatalog();
@@ -37,7 +38,7 @@ export function BlogPage() {
 
 export function BlogCover({ post, className = "" }) {
   const [failed, setFailed] = useState(false);
-  const source = normalizeMediaSource(post.cover_image_url);
+  const source = normalizeImageSource(post.cover_image_url);
 
   return (
     <div className={`grid place-items-center overflow-hidden bg-surfaceAlt font-display uppercase tracking-[0.08em] text-muted ${className}`}>
@@ -48,19 +49,4 @@ export function BlogCover({ post, className = "" }) {
       )}
     </div>
   );
-}
-
-function normalizeMediaSource(source) {
-  if (!source || typeof window === "undefined") return source;
-
-  try {
-    const url = new URL(source, window.location.origin);
-    if (url.pathname.startsWith("/media/") && ["localhost", "127.0.0.1"].includes(url.hostname)) {
-      return `${url.pathname}${url.search}`;
-    }
-  } catch {
-    return source;
-  }
-
-  return source;
 }
