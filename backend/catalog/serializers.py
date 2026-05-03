@@ -53,9 +53,7 @@ class ProductImageSerializer(serializers.ModelSerializer):
     def get_url(self, obj: ProductImage) -> str:
         if not obj.image:
             return ""
-        request = self.context.get("request")
-        url = obj.image.url
-        return request.build_absolute_uri(url) if request else url
+        return obj.image
 
     def get_alt(self, obj: ProductImage) -> str:
         return localized_value(obj, "alt", request_language(self.context)) or obj.product.name_en

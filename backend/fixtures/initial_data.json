@@ -1,0 +1,3326 @@
+[
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "slug": "ip-cameras",
+    "name_en": "IP cameras",
+    "name_ru": "IP видеокамеры",
+    "name_kk": "IP бейнекамералар",
+    "description_en": "Bullet, dome and AI cameras for IP systems",
+    "description_ru": "Цилиндрические, купольные и AI-камеры для IP-систем",
+    "description_kk": "IP жүйелеріне арналған цилиндрлік, күмбезді және AI камералар",
+    "is_active": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.683Z",
+    "updated_at": "2026-05-03T17:26:08.683Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 2,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "slug": "ip-recorders",
+    "name_en": "IP recorders",
+    "name_ru": "IP видеорегистраторы",
+    "name_kk": "IP бейнетіркеушілер",
+    "description_en": "Network NVRs for sites from 8 to 256 channels",
+    "description_ru": "Сетевые NVR для объектов от 8 до 256 каналов",
+    "description_kk": "8-ден 256 арнаға дейінгі нысандарға арналған желілік NVR",
+    "is_active": true,
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:08.686Z",
+    "updated_at": "2026-05-03T17:26:08.686Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 3,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "slug": "network",
+    "name_en": "Network equipment",
+    "name_ru": "Сетевое оборудование",
+    "name_kk": "Желілік жабдық",
+    "description_en": "PoE switches and infrastructure",
+    "description_ru": "PoE-коммутаторы и инфраструктура",
+    "description_kk": "PoE коммутаторлары және инфрақұрылым",
+    "is_active": true,
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:08.689Z",
+    "updated_at": "2026-05-03T17:26:08.689Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 4,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "slug": "hd-cameras",
+    "name_en": "HD cameras",
+    "name_ru": "HD видеокамеры",
+    "name_kk": "HD бейнекамералар",
+    "description_en": "HD-TVI cameras for analog systems",
+    "description_ru": "HD-TVI камеры для аналоговых систем",
+    "description_kk": "Аналогтық жүйелерге арналған HD-TVI камералары",
+    "is_active": true,
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:08.692Z",
+    "updated_at": "2026-05-03T17:26:08.692Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 5,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "slug": "hd-recorders",
+    "name_en": "HD recorders",
+    "name_ru": "HD видеорегистраторы",
+    "name_kk": "HD бейнетіркеушілер",
+    "description_en": "HD-TVI recorders for archive and remote access",
+    "description_ru": "HD-TVI регистраторы для архива и удалённого доступа",
+    "description_kk": "Архив пен қашықтан қол жеткізуге арналған HD-TVI тіркеушілер",
+    "is_active": true,
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:08.694Z",
+    "updated_at": "2026-05-03T17:26:08.694Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 6,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "slug": "intercom",
+    "name_en": "Intercom",
+    "name_ru": "Домофония",
+    "name_kk": "Домофония",
+    "description_en": "IP and analog access panels",
+    "description_ru": "IP и аналоговые панели доступа",
+    "description_kk": "IP және аналогтық кіру панельдері",
+    "is_active": true,
+    "sort_order": 5,
+    "created_at": "2026-05-03T17:26:08.697Z",
+    "updated_at": "2026-05-03T17:26:08.697Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 7,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "slug": "accessories",
+    "name_en": "Accessories",
+    "name_ru": "Аксессуары",
+    "name_kk": "Аксессуарлар",
+    "description_en": "Cables, brackets and power supplies",
+    "description_ru": "Кабели, кронштейны, блоки питания",
+    "description_kk": "Кабельдер, кронштейндер және қуат блоктары",
+    "is_active": true,
+    "sort_order": 6,
+    "created_at": "2026-05-03T17:26:08.700Z",
+    "updated_at": "2026-05-03T17:26:08.700Z"
+  }
+},
+{
+  "model": "catalog.brand",
+  "pk": 1,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "slug": "dahua",
+    "name": "Dahua",
+    "website": "",
+    "is_active": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.670Z",
+    "updated_at": "2026-05-03T17:26:08.670Z"
+  }
+},
+{
+  "model": "catalog.brand",
+  "pk": 2,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "slug": "hiwatch",
+    "name": "HiWatch",
+    "website": "",
+    "is_active": true,
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:08.674Z",
+    "updated_at": "2026-05-03T17:26:08.674Z"
+  }
+},
+{
+  "model": "catalog.brand",
+  "pk": 3,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "slug": "hikvision",
+    "name": "Hikvision",
+    "website": "",
+    "is_active": true,
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:08.677Z",
+    "updated_at": "2026-05-03T17:26:08.677Z"
+  }
+},
+{
+  "model": "catalog.brand",
+  "pk": 4,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "slug": "ubiquiti",
+    "name": "Ubiquiti",
+    "website": "",
+    "is_active": true,
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:08.680Z",
+    "updated_at": "2026-05-03T17:26:08.680Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 1,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "DS-2CD1041G2-LIU (2.8mm), bullet IP camera",
+    "name_ru": "DS-2CD1041G2-LIU (2.8mm), IP камера, цилиндрическая",
+    "name_kk": "DS-2CD1041G2-LIU (2.8mm), цилиндрлік IP камера",
+    "slug": "ipcam1",
+    "article": "DS-2CD1041G2-LIU",
+    "category": 1,
+    "brand": 3,
+    "short_description_en": "Bullet, dome and AI cameras for IP systems",
+    "short_description_ru": "Цилиндрические, купольные и AI-камеры для IP-систем",
+    "short_description_kk": "IP жүйелеріне арналған цилиндрлік, күмбезді және AI камералар",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "4MP",
+    "camera_type": "bullet",
+    "recorder_channels": null,
+    "has_poe": true,
+    "is_active": true,
+    "is_featured": true,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:08.704Z",
+    "updated_at": "2026-05-03T17:26:08.704Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 2,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "Dahua DH-IPC-HFW1230TC1-A IP camera",
+    "name_ru": "IP видеокамера Dahua DH-IPC-HFW1230TC1-A",
+    "name_kk": "Dahua DH-IPC-HFW1230TC1-A IP бейнекамерасы",
+    "slug": "ipcam2",
+    "article": "DH-IPC-HFW1230TC1-A",
+    "category": 1,
+    "brand": 1,
+    "short_description_en": "Bullet, dome and AI cameras for IP systems",
+    "short_description_ru": "Цилиндрические, купольные и AI-камеры для IP-систем",
+    "short_description_kk": "IP жүйелеріне арналған цилиндрлік, күмбезді және AI камералар",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "4MP",
+    "camera_type": "bullet",
+    "recorder_channels": null,
+    "has_poe": true,
+    "is_active": true,
+    "is_featured": true,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:08.756Z",
+    "updated_at": "2026-05-03T17:26:08.756Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 3,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "DS-I650M(C) (2.8mm), HiWatch bullet IP camera",
+    "name_ru": "DS-I650M(C) (2.8mm), IP камера, цилиндрическая, HiWatch",
+    "name_kk": "DS-I650M(C) (2.8mm), HiWatch цилиндрлік IP камерасы",
+    "slug": "ipcam3",
+    "article": "DS-I650M(C)",
+    "category": 1,
+    "brand": 2,
+    "short_description_en": "Bullet, dome and AI cameras for IP systems",
+    "short_description_ru": "Цилиндрические, купольные и AI-камеры для IP-систем",
+    "short_description_kk": "IP жүйелеріне арналған цилиндрлік, күмбезді және AI камералар",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "4MP",
+    "camera_type": "bullet",
+    "recorder_channels": null,
+    "has_poe": true,
+    "is_active": true,
+    "is_featured": true,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:08.808Z",
+    "updated_at": "2026-05-03T17:26:08.808Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 4,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "Ubiquiti UniFi Protect AI Professional 4K IP camera",
+    "name_ru": "IP-камера Ubiquiti UniFi Protect AI Professional 4K",
+    "name_kk": "Ubiquiti UniFi Protect AI Professional 4K IP камерасы",
+    "slug": "ipcam4",
+    "article": "UVC-AI-PRO",
+    "category": 1,
+    "brand": 4,
+    "short_description_en": "Bullet, dome and AI cameras for IP systems",
+    "short_description_ru": "Цилиндрические, купольные и AI-камеры для IP-систем",
+    "short_description_kk": "IP жүйелеріне арналған цилиндрлік, күмбезді және AI камералар",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "4K",
+    "camera_type": "bullet",
+    "recorder_channels": null,
+    "has_poe": true,
+    "is_active": true,
+    "is_featured": true,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:08.862Z",
+    "updated_at": "2026-05-03T17:26:08.862Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 5,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "HiWatch DS-N308 8-channel IP video recorder",
+    "name_ru": "8-канальный IP видеорегистратор HiWatch DS-N308",
+    "name_kk": "HiWatch DS-N308 8 арналы IP бейнетіркеуші",
+    "slug": "ipreg1",
+    "article": "DS-N308",
+    "category": 2,
+    "brand": 2,
+    "short_description_en": "Network NVRs for sites from 8 to 256 channels",
+    "short_description_ru": "Сетевые NVR для объектов от 8 до 256 каналов",
+    "short_description_kk": "8-ден 256 арнаға дейінгі нысандарға арналған желілік NVR",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "",
+    "recorder_channels": 8,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": true,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:08.930Z",
+    "updated_at": "2026-05-03T17:26:08.930Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 6,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "DS-96128NI-M8/R 128-channel network video recorder",
+    "name_ru": "128-канальный сетевой видеорегистратор DS-96128NI-M8/R",
+    "name_kk": "DS-96128NI-M8/R 128 арналы желілік бейнетіркеуші",
+    "slug": "ipreg2",
+    "article": "DS-96128NI-M8/R",
+    "category": 2,
+    "brand": 3,
+    "short_description_en": "Network NVRs for sites from 8 to 256 channels",
+    "short_description_ru": "Сетевые NVR для объектов от 8 до 256 каналов",
+    "short_description_kk": "8-ден 256 арнаға дейінгі нысандарға арналған желілік NVR",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "",
+    "recorder_channels": 128,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": true,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:08.975Z",
+    "updated_at": "2026-05-03T17:26:08.975Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 7,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "DS-7716NI-M4(STD) 16-channel network video recorder",
+    "name_ru": "16-канальный сетевой видеорегистратор DS-7716NI-M4(STD)",
+    "name_kk": "DS-7716NI-M4(STD) 16 арналы желілік бейнетіркеуші",
+    "slug": "ipreg3",
+    "article": "DS-7716NI-M4(STD)",
+    "category": 2,
+    "brand": 3,
+    "short_description_en": "Network NVRs for sites from 8 to 256 channels",
+    "short_description_ru": "Сетевые NVR для объектов от 8 до 256 каналов",
+    "short_description_kk": "8-ден 256 арнаға дейінгі нысандарға арналған желілік NVR",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "",
+    "recorder_channels": 16,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": true,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.018Z",
+    "updated_at": "2026-05-03T17:26:09.018Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 8,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "DS-96256NI-I24(STD) 256-channel network video recorder",
+    "name_ru": "256-канальный сетевой видеорегистратор DS-96256NI-I24(STD)",
+    "name_kk": "DS-96256NI-I24(STD) 256 арналы желілік бейнетіркеуші",
+    "slug": "ipreg4",
+    "article": "DS-96256NI-I24(STD)",
+    "category": 2,
+    "brand": 3,
+    "short_description_en": "Network NVRs for sites from 8 to 256 channels",
+    "short_description_ru": "Сетевые NVR для объектов от 8 до 256 каналов",
+    "short_description_kk": "8-ден 256 арнаға дейінгі нысандарға арналған желілік NVR",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "",
+    "recorder_channels": 256,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": true,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.060Z",
+    "updated_at": "2026-05-03T17:26:09.060Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 9,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "DS-2CE10DF0T-F (2.8mm), bullet HD-TVI camera",
+    "name_ru": "DS-2CE10DF0T-F (2.8mm), цилиндрическая HD-TVI камера",
+    "name_kk": "DS-2CE10DF0T-F (2.8mm), цилиндрлік HD-TVI камера",
+    "slug": "hdcam1",
+    "article": "DS-2CE10DF0T-F",
+    "category": 4,
+    "brand": 3,
+    "short_description_en": "HD-TVI cameras for analog systems",
+    "short_description_ru": "HD-TVI камеры для аналоговых систем",
+    "short_description_kk": "Аналогтық жүйелерге арналған HD-TVI камералары",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "2MP",
+    "camera_type": "bullet",
+    "recorder_channels": null,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.106Z",
+    "updated_at": "2026-05-03T17:26:09.106Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 10,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "DS-2CE10DF3T-F (2.8mm), fixed mini bullet camera",
+    "name_ru": "DS-2CE10DF3T-F (2.8mm), фиксированная мини-цилиндрическая камера",
+    "name_kk": "DS-2CE10DF3T-F (2.8mm), шағын цилиндрлік бекітілген камера",
+    "slug": "hdcam2",
+    "article": "DS-2CE10DF3T-F",
+    "category": 4,
+    "brand": 3,
+    "short_description_en": "HD-TVI cameras for analog systems",
+    "short_description_ru": "HD-TVI камеры для аналоговых систем",
+    "short_description_kk": "Аналогтық жүйелерге арналған HD-TVI камералары",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "2MP",
+    "camera_type": "bullet",
+    "recorder_channels": null,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.164Z",
+    "updated_at": "2026-05-03T17:26:09.164Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 11,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "DS-2CE10DF8T-F (2.8mm), fixed mini bullet camera",
+    "name_ru": "DS-2CE10DF8T-F (2.8mm), фиксированная мини-цилиндрическая камера",
+    "name_kk": "DS-2CE10DF8T-F (2.8mm), шағын цилиндрлік бекітілген камера",
+    "slug": "hdcam3",
+    "article": "DS-2CE10DF8T-F",
+    "category": 4,
+    "brand": 3,
+    "short_description_en": "HD-TVI cameras for analog systems",
+    "short_description_ru": "HD-TVI камеры для аналоговых систем",
+    "short_description_kk": "Аналогтық жүйелерге арналған HD-TVI камералары",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "2MP",
+    "camera_type": "bullet",
+    "recorder_channels": null,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.221Z",
+    "updated_at": "2026-05-03T17:26:09.221Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 12,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "DS-2CE10HFT-E (3.6mm), fixed mini bullet camera",
+    "name_ru": "DS-2CE10HFT-E (3.6mm), фиксированная мини-цилиндрическая камера",
+    "name_kk": "DS-2CE10HFT-E (3.6mm), шағын цилиндрлік бекітілген камера",
+    "slug": "hdcam4",
+    "article": "DS-2CE10HFT-E",
+    "category": 4,
+    "brand": 3,
+    "short_description_en": "HD-TVI cameras for analog systems",
+    "short_description_ru": "HD-TVI камеры для аналоговых систем",
+    "short_description_kk": "Аналогтық жүйелерге арналған HD-TVI камералары",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "2MP",
+    "camera_type": "bullet",
+    "recorder_channels": null,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.276Z",
+    "updated_at": "2026-05-03T17:26:09.276Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 13,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "Hikvision iDS-7204HUHI-M1/FA(C), 4-channel HD-TVI recorder",
+    "name_ru": "Hikvision iDS-7204HUHI-M1/FA(C), HD-TVI видеорегистратор 4 канала",
+    "name_kk": "Hikvision iDS-7204HUHI-M1/FA(C), 4 арналы HD-TVI бейнетіркеуші",
+    "slug": "hdreg1",
+    "article": "iDS-7204HUHI-M1/FA(C)",
+    "category": 5,
+    "brand": 3,
+    "short_description_en": "HD-TVI recorders for archive and remote access",
+    "short_description_ru": "HD-TVI регистраторы для архива и удалённого доступа",
+    "short_description_kk": "Архив пен қашықтан қол жеткізуге арналған HD-TVI тіркеушілер",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "",
+    "recorder_channels": 4,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.328Z",
+    "updated_at": "2026-05-03T17:26:09.328Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 14,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "Hikvision iDS-7208HQHI-M1/FA(C)8A+8/4ALM, 8-channel HD-TVI recorder",
+    "name_ru": "Hikvision iDS-7208HQHI-M1/FA(C)8A+8/4ALM, HD-TVI видеорегистратор 8 каналов",
+    "name_kk": "Hikvision iDS-7208HQHI-M1/FA(C)8A+8/4ALM, 8 арналы HD-TVI бейнетіркеуші",
+    "slug": "hdreg2",
+    "article": "iDS-7208HQHI-M1/FA(C)8A+8/4ALM",
+    "category": 5,
+    "brand": 3,
+    "short_description_en": "HD-TVI recorders for archive and remote access",
+    "short_description_ru": "HD-TVI регистраторы для архива и удалённого доступа",
+    "short_description_kk": "Архив пен қашықтан қол жеткізуге арналған HD-TVI тіркеушілер",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "",
+    "recorder_channels": 8,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.369Z",
+    "updated_at": "2026-05-03T17:26:09.369Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 15,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "Hikvision iDS-7208HQHI-M2/S(C), 8-channel HD-TVI recorder",
+    "name_ru": "Hikvision iDS-7208HQHI-M2/S(C), HD-TVI видеорегистратор 8 каналов",
+    "name_kk": "Hikvision iDS-7208HQHI-M2/S(C), 8 арналы HD-TVI бейнетіркеуші",
+    "slug": "hdreg3",
+    "article": "iDS-7208HQHI-M2/S(C)",
+    "category": 5,
+    "brand": 3,
+    "short_description_en": "HD-TVI recorders for archive and remote access",
+    "short_description_ru": "HD-TVI регистраторы для архива и удалённого доступа",
+    "short_description_kk": "Архив пен қашықтан қол жеткізуге арналған HD-TVI тіркеушілер",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "",
+    "recorder_channels": 8,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.413Z",
+    "updated_at": "2026-05-03T17:26:09.413Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 16,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "Hikvision DS-7116HGHI-K1 16-channel HD video recorder",
+    "name_ru": "16-канальный HD видеорегистратор Hikvision DS-7116HGHI-K1",
+    "name_kk": "Hikvision DS-7116HGHI-K1 16 арналы HD бейнетіркеуші",
+    "slug": "hdreg4",
+    "article": "DS-7116HGHI-K1",
+    "category": 5,
+    "brand": 3,
+    "short_description_en": "HD-TVI recorders for archive and remote access",
+    "short_description_ru": "HD-TVI регистраторы для архива и удалённого доступа",
+    "short_description_kk": "Архив пен қашықтан қол жеткізуге арналған HD-TVI тіркеушілер",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "",
+    "recorder_channels": 16,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.449Z",
+    "updated_at": "2026-05-03T17:26:09.449Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 17,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "Hikvision DS-3E0318P-E/M PoE switch",
+    "name_ru": "PoE-коммутатор Hikvision DS-3E0318P-E/M",
+    "name_kk": "Hikvision DS-3E0318P-E/M PoE коммутаторы",
+    "slug": "net1",
+    "article": "DS-3E0318P-E/M",
+    "category": 3,
+    "brand": 3,
+    "short_description_en": "PoE switches and infrastructure",
+    "short_description_ru": "PoE-коммутаторы и инфраструктура",
+    "short_description_kk": "PoE коммутаторлары және инфрақұрылым",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "",
+    "recorder_channels": null,
+    "has_poe": true,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.487Z",
+    "updated_at": "2026-05-03T17:26:09.487Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 18,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "Hikvision DS-3E0109P-E/M PoE switch",
+    "name_ru": "PoE-коммутатор Hikvision DS-3E0109P-E/M",
+    "name_kk": "Hikvision DS-3E0109P-E/M PoE коммутаторы",
+    "slug": "net2",
+    "article": "DS-3E0109P-E/M",
+    "category": 3,
+    "brand": 3,
+    "short_description_en": "PoE switches and infrastructure",
+    "short_description_ru": "PoE-коммутаторы и инфраструктура",
+    "short_description_kk": "PoE коммутаторлары және инфрақұрылым",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "",
+    "recorder_channels": null,
+    "has_poe": true,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.530Z",
+    "updated_at": "2026-05-03T17:26:09.530Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 19,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "Hikvision DS-KV6113-WPE1 IP door station",
+    "name_ru": "IP вызывная панель Hikvision DS-KV6113-WPE1",
+    "name_kk": "Hikvision DS-KV6113-WPE1 IP шақыру панелі",
+    "slug": "intercom1",
+    "article": "DS-KV6113-WPE1",
+    "category": 6,
+    "brand": 3,
+    "short_description_en": "IP and analog access panels",
+    "short_description_ru": "IP и аналоговые панели доступа",
+    "short_description_kk": "IP және аналогтық кіру панельдері",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "door-station",
+    "recorder_channels": null,
+    "has_poe": true,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.567Z",
+    "updated_at": "2026-05-03T17:26:09.567Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 20,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "name_en": "Hikvision DS-1272ZJ-110 camera bracket",
+    "name_ru": "Кронштейн для камер Hikvision DS-1272ZJ-110",
+    "name_kk": "Hikvision DS-1272ZJ-110 камера кронштейні",
+    "slug": "accessory1",
+    "article": "DS-1272ZJ-110",
+    "category": 7,
+    "brand": 3,
+    "short_description_en": "Cables, brackets and power supplies",
+    "short_description_ru": "Кабели, кронштейны, блоки питания",
+    "short_description_kk": "Кабельдер, кронштейндер және қуат блоктары",
+    "description_en": "Professional security equipment for commercial sites, warehouses, offices, and distributed surveillance systems.",
+    "description_ru": "Профессиональное оборудование безопасности для коммерческих объектов, складов, офисов и распределённых систем видеонаблюдения.",
+    "description_kk": "Коммерциялық нысандарға, қоймаларға, кеңселерге және таралған бейнебақылау жүйелеріне арналған кәсіби қауіпсіздік жабдығы.",
+    "documentation_en": "",
+    "documentation_ru": "",
+    "documentation_kk": "",
+    "price_type": "on_request",
+    "price": null,
+    "resolution": "",
+    "camera_type": "",
+    "recorder_channels": null,
+    "has_poe": false,
+    "is_active": true,
+    "is_featured": false,
+    "stock_status": "on_request",
+    "created_at": "2026-05-03T17:26:09.615Z",
+    "updated_at": "2026-05-03T17:26:09.615Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 1,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 1,
+    "image": "products/ipcam1.jpeg",
+    "alt_en": "DS-2CD1041G2-LIU (2.8mm), bullet IP camera",
+    "alt_ru": "DS-2CD1041G2-LIU (2.8mm), IP камера, цилиндрическая",
+    "alt_kk": "DS-2CD1041G2-LIU (2.8mm), цилиндрлік IP камера",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.716Z",
+    "updated_at": "2026-05-03T17:26:08.716Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 2,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 2,
+    "image": "products/ipcam2.jpg",
+    "alt_en": "Dahua DH-IPC-HFW1230TC1-A IP camera",
+    "alt_ru": "IP видеокамера Dahua DH-IPC-HFW1230TC1-A",
+    "alt_kk": "Dahua DH-IPC-HFW1230TC1-A IP бейнекамерасы",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.767Z",
+    "updated_at": "2026-05-03T17:26:08.767Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 3,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 3,
+    "image": "products/ipcam3.jpeg",
+    "alt_en": "DS-I650M(C) (2.8mm), HiWatch bullet IP camera",
+    "alt_ru": "DS-I650M(C) (2.8mm), IP камера, цилиндрическая, HiWatch",
+    "alt_kk": "DS-I650M(C) (2.8mm), HiWatch цилиндрлік IP камерасы",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.819Z",
+    "updated_at": "2026-05-03T17:26:08.819Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 4,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 4,
+    "image": "products/ipcam4.webp",
+    "alt_en": "Ubiquiti UniFi Protect AI Professional 4K IP camera",
+    "alt_ru": "IP-камера Ubiquiti UniFi Protect AI Professional 4K",
+    "alt_kk": "Ubiquiti UniFi Protect AI Professional 4K IP камерасы",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.886Z",
+    "updated_at": "2026-05-03T17:26:08.886Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 5,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 5,
+    "image": "products/ipreg1.jpg",
+    "alt_en": "HiWatch DS-N308 8-channel IP video recorder",
+    "alt_ru": "8-канальный IP видеорегистратор HiWatch DS-N308",
+    "alt_kk": "HiWatch DS-N308 8 арналы IP бейнетіркеуші",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.942Z",
+    "updated_at": "2026-05-03T17:26:08.942Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 6,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 6,
+    "image": "products/ipreg2.webp",
+    "alt_en": "DS-96128NI-M8/R 128-channel network video recorder",
+    "alt_ru": "128-канальный сетевой видеорегистратор DS-96128NI-M8/R",
+    "alt_kk": "DS-96128NI-M8/R 128 арналы желілік бейнетіркеуші",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.986Z",
+    "updated_at": "2026-05-03T17:26:08.986Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 7,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 7,
+    "image": "products/ipreg3.webp",
+    "alt_en": "DS-7716NI-M4(STD) 16-channel network video recorder",
+    "alt_ru": "16-канальный сетевой видеорегистратор DS-7716NI-M4(STD)",
+    "alt_kk": "DS-7716NI-M4(STD) 16 арналы желілік бейнетіркеуші",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.029Z",
+    "updated_at": "2026-05-03T17:26:09.029Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 8,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 8,
+    "image": "products/ipreg4.webp",
+    "alt_en": "DS-96256NI-I24(STD) 256-channel network video recorder",
+    "alt_ru": "256-канальный сетевой видеорегистратор DS-96256NI-I24(STD)",
+    "alt_kk": "DS-96256NI-I24(STD) 256 арналы желілік бейнетіркеуші",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.070Z",
+    "updated_at": "2026-05-03T17:26:09.070Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 9,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 9,
+    "image": "products/hdcam1.webp",
+    "alt_en": "DS-2CE10DF0T-F (2.8mm), bullet HD-TVI camera",
+    "alt_ru": "DS-2CE10DF0T-F (2.8mm), цилиндрическая HD-TVI камера",
+    "alt_kk": "DS-2CE10DF0T-F (2.8mm), цилиндрлік HD-TVI камера",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.122Z",
+    "updated_at": "2026-05-03T17:26:09.122Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 10,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 10,
+    "image": "products/hdcam2.webp",
+    "alt_en": "DS-2CE10DF3T-F (2.8mm), fixed mini bullet camera",
+    "alt_ru": "DS-2CE10DF3T-F (2.8mm), фиксированная мини-цилиндрическая камера",
+    "alt_kk": "DS-2CE10DF3T-F (2.8mm), шағын цилиндрлік бекітілген камера",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.177Z",
+    "updated_at": "2026-05-03T17:26:09.177Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 11,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 11,
+    "image": "products/hdcam3.webp",
+    "alt_en": "DS-2CE10DF8T-F (2.8mm), fixed mini bullet camera",
+    "alt_ru": "DS-2CE10DF8T-F (2.8mm), фиксированная мини-цилиндрическая камера",
+    "alt_kk": "DS-2CE10DF8T-F (2.8mm), шағын цилиндрлік бекітілген камера",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.231Z",
+    "updated_at": "2026-05-03T17:26:09.231Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 12,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 12,
+    "image": "products/hdcam4.webp",
+    "alt_en": "DS-2CE10HFT-E (3.6mm), fixed mini bullet camera",
+    "alt_ru": "DS-2CE10HFT-E (3.6mm), фиксированная мини-цилиндрическая камера",
+    "alt_kk": "DS-2CE10HFT-E (3.6mm), шағын цилиндрлік бекітілген камера",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.289Z",
+    "updated_at": "2026-05-03T17:26:09.289Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 13,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 13,
+    "image": "products/hdreg1.webp",
+    "alt_en": "Hikvision iDS-7204HUHI-M1/FA(C), 4-channel HD-TVI recorder",
+    "alt_ru": "Hikvision iDS-7204HUHI-M1/FA(C), HD-TVI видеорегистратор 4 канала",
+    "alt_kk": "Hikvision iDS-7204HUHI-M1/FA(C), 4 арналы HD-TVI бейнетіркеуші",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.338Z",
+    "updated_at": "2026-05-03T17:26:09.338Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 14,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 14,
+    "image": "products/hdreg2.webp",
+    "alt_en": "Hikvision iDS-7208HQHI-M1/FA(C)8A+8/4ALM, 8-channel HD-TVI recorder",
+    "alt_ru": "Hikvision iDS-7208HQHI-M1/FA(C)8A+8/4ALM, HD-TVI видеорегистратор 8 каналов",
+    "alt_kk": "Hikvision iDS-7208HQHI-M1/FA(C)8A+8/4ALM, 8 арналы HD-TVI бейнетіркеуші",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.380Z",
+    "updated_at": "2026-05-03T17:26:09.380Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 15,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 15,
+    "image": "products/hdreg3.webp",
+    "alt_en": "Hikvision iDS-7208HQHI-M2/S(C), 8-channel HD-TVI recorder",
+    "alt_ru": "Hikvision iDS-7208HQHI-M2/S(C), HD-TVI видеорегистратор 8 каналов",
+    "alt_kk": "Hikvision iDS-7208HQHI-M2/S(C), 8 арналы HD-TVI бейнетіркеуші",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.419Z",
+    "updated_at": "2026-05-03T17:26:09.419Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 16,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 16,
+    "image": "products/hdreg4.webp",
+    "alt_en": "Hikvision DS-7116HGHI-K1 16-channel HD video recorder",
+    "alt_ru": "16-канальный HD видеорегистратор Hikvision DS-7116HGHI-K1",
+    "alt_kk": "Hikvision DS-7116HGHI-K1 16 арналы HD бейнетіркеуші",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.454Z",
+    "updated_at": "2026-05-03T17:26:09.454Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 17,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 17,
+    "image": "products/net1.png",
+    "alt_en": "Hikvision DS-3E0318P-E/M PoE switch",
+    "alt_ru": "PoE-коммутатор Hikvision DS-3E0318P-E/M",
+    "alt_kk": "Hikvision DS-3E0318P-E/M PoE коммутаторы",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.498Z",
+    "updated_at": "2026-05-03T17:26:09.498Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 18,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 18,
+    "image": "products/net2.png",
+    "alt_en": "Hikvision DS-3E0109P-E/M PoE switch",
+    "alt_ru": "PoE-коммутатор Hikvision DS-3E0109P-E/M",
+    "alt_kk": "Hikvision DS-3E0109P-E/M PoE коммутаторы",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.536Z",
+    "updated_at": "2026-05-03T17:26:09.536Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 19,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 19,
+    "image": "products/intercom1.jpg",
+    "alt_en": "Hikvision DS-KV6113-WPE1 IP door station",
+    "alt_ru": "IP вызывная панель Hikvision DS-KV6113-WPE1",
+    "alt_kk": "Hikvision DS-KV6113-WPE1 IP шақыру панелі",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.577Z",
+    "updated_at": "2026-05-03T17:26:09.577Z"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 20,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 20,
+    "image": "products/accessory1.jpeg",
+    "alt_en": "Hikvision DS-1272ZJ-110 camera bracket",
+    "alt_ru": "Кронштейн для камер Hikvision DS-1272ZJ-110",
+    "alt_kk": "Hikvision DS-1272ZJ-110 камера кронштейні",
+    "is_main": true,
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.627Z",
+    "updated_at": "2026-05-03T17:26:09.627Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 1,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 1,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-2CD1041G2-LIU",
+    "value_ru": "DS-2CD1041G2-LIU",
+    "value_kk": "DS-2CD1041G2-LIU",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.719Z",
+    "updated_at": "2026-05-03T17:26:08.722Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 2,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 1,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:08.726Z",
+    "updated_at": "2026-05-03T17:26:08.728Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 3,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 1,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "IP cameras",
+    "value_ru": "IP видеокамеры",
+    "value_kk": "IP бейнекамералар",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:08.731Z",
+    "updated_at": "2026-05-03T17:26:08.733Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 4,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 1,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:08.735Z",
+    "updated_at": "2026-05-03T17:26:08.738Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 5,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 1,
+    "name_en": "Resolution",
+    "name_ru": "Разрешение",
+    "name_kk": "Ажыратымдылық",
+    "value_en": "4MP",
+    "value_ru": "4MP",
+    "value_kk": "4MP",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:08.740Z",
+    "updated_at": "2026-05-03T17:26:08.743Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 6,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 1,
+    "name_en": "Camera type",
+    "name_ru": "Тип камеры",
+    "name_kk": "Камера түрі",
+    "value_en": "bullet",
+    "value_ru": "bullet",
+    "value_kk": "bullet",
+    "sort_order": 5,
+    "created_at": "2026-05-03T17:26:08.745Z",
+    "updated_at": "2026-05-03T17:26:08.748Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 7,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 1,
+    "name_en": "PoE",
+    "name_ru": "PoE",
+    "name_kk": "PoE",
+    "value_en": "Yes",
+    "value_ru": "Да",
+    "value_kk": "Иә",
+    "sort_order": 6,
+    "created_at": "2026-05-03T17:26:08.751Z",
+    "updated_at": "2026-05-03T17:26:08.753Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 8,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 2,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DH-IPC-HFW1230TC1-A",
+    "value_ru": "DH-IPC-HFW1230TC1-A",
+    "value_kk": "DH-IPC-HFW1230TC1-A",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.770Z",
+    "updated_at": "2026-05-03T17:26:08.773Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 9,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 2,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Dahua",
+    "value_ru": "Dahua",
+    "value_kk": "Dahua",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:08.776Z",
+    "updated_at": "2026-05-03T17:26:08.778Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 10,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 2,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "IP cameras",
+    "value_ru": "IP видеокамеры",
+    "value_kk": "IP бейнекамералар",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:08.781Z",
+    "updated_at": "2026-05-03T17:26:08.784Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 11,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 2,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:08.787Z",
+    "updated_at": "2026-05-03T17:26:08.789Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 12,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 2,
+    "name_en": "Resolution",
+    "name_ru": "Разрешение",
+    "name_kk": "Ажыратымдылық",
+    "value_en": "4MP",
+    "value_ru": "4MP",
+    "value_kk": "4MP",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:08.792Z",
+    "updated_at": "2026-05-03T17:26:08.794Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 13,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 2,
+    "name_en": "Camera type",
+    "name_ru": "Тип камеры",
+    "name_kk": "Камера түрі",
+    "value_en": "bullet",
+    "value_ru": "bullet",
+    "value_kk": "bullet",
+    "sort_order": 5,
+    "created_at": "2026-05-03T17:26:08.797Z",
+    "updated_at": "2026-05-03T17:26:08.800Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 14,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 2,
+    "name_en": "PoE",
+    "name_ru": "PoE",
+    "name_kk": "PoE",
+    "value_en": "Yes",
+    "value_ru": "Да",
+    "value_kk": "Иә",
+    "sort_order": 6,
+    "created_at": "2026-05-03T17:26:08.802Z",
+    "updated_at": "2026-05-03T17:26:08.805Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 15,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 3,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-I650M(C)",
+    "value_ru": "DS-I650M(C)",
+    "value_kk": "DS-I650M(C)",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.822Z",
+    "updated_at": "2026-05-03T17:26:08.825Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 16,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 3,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "HiWatch",
+    "value_ru": "HiWatch",
+    "value_kk": "HiWatch",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:08.828Z",
+    "updated_at": "2026-05-03T17:26:08.831Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 17,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 3,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "IP cameras",
+    "value_ru": "IP видеокамеры",
+    "value_kk": "IP бейнекамералар",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:08.834Z",
+    "updated_at": "2026-05-03T17:26:08.836Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 18,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 3,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:08.839Z",
+    "updated_at": "2026-05-03T17:26:08.842Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 19,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 3,
+    "name_en": "Resolution",
+    "name_ru": "Разрешение",
+    "name_kk": "Ажыратымдылық",
+    "value_en": "4MP",
+    "value_ru": "4MP",
+    "value_kk": "4MP",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:08.845Z",
+    "updated_at": "2026-05-03T17:26:08.847Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 20,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 3,
+    "name_en": "Camera type",
+    "name_ru": "Тип камеры",
+    "name_kk": "Камера түрі",
+    "value_en": "bullet",
+    "value_ru": "bullet",
+    "value_kk": "bullet",
+    "sort_order": 5,
+    "created_at": "2026-05-03T17:26:08.850Z",
+    "updated_at": "2026-05-03T17:26:08.853Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 21,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 3,
+    "name_en": "PoE",
+    "name_ru": "PoE",
+    "name_kk": "PoE",
+    "value_en": "Yes",
+    "value_ru": "Да",
+    "value_kk": "Иә",
+    "sort_order": 6,
+    "created_at": "2026-05-03T17:26:08.856Z",
+    "updated_at": "2026-05-03T17:26:08.859Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 22,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 4,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "UVC-AI-PRO",
+    "value_ru": "UVC-AI-PRO",
+    "value_kk": "UVC-AI-PRO",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.889Z",
+    "updated_at": "2026-05-03T17:26:08.891Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 23,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 4,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Ubiquiti",
+    "value_ru": "Ubiquiti",
+    "value_kk": "Ubiquiti",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:08.894Z",
+    "updated_at": "2026-05-03T17:26:08.897Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 24,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 4,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "IP cameras",
+    "value_ru": "IP видеокамеры",
+    "value_kk": "IP бейнекамералар",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:08.901Z",
+    "updated_at": "2026-05-03T17:26:08.903Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 25,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 4,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:08.906Z",
+    "updated_at": "2026-05-03T17:26:08.909Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 26,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 4,
+    "name_en": "Resolution",
+    "name_ru": "Разрешение",
+    "name_kk": "Ажыратымдылық",
+    "value_en": "4K",
+    "value_ru": "4K",
+    "value_kk": "4K",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:08.912Z",
+    "updated_at": "2026-05-03T17:26:08.915Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 27,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 4,
+    "name_en": "Camera type",
+    "name_ru": "Тип камеры",
+    "name_kk": "Камера түрі",
+    "value_en": "bullet",
+    "value_ru": "bullet",
+    "value_kk": "bullet",
+    "sort_order": 5,
+    "created_at": "2026-05-03T17:26:08.918Z",
+    "updated_at": "2026-05-03T17:26:08.921Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 28,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 4,
+    "name_en": "PoE",
+    "name_ru": "PoE",
+    "name_kk": "PoE",
+    "value_en": "Yes",
+    "value_ru": "Да",
+    "value_kk": "Иә",
+    "sort_order": 6,
+    "created_at": "2026-05-03T17:26:08.924Z",
+    "updated_at": "2026-05-03T17:26:08.927Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 29,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 5,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-N308",
+    "value_ru": "DS-N308",
+    "value_kk": "DS-N308",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.945Z",
+    "updated_at": "2026-05-03T17:26:08.948Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 30,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 5,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "HiWatch",
+    "value_ru": "HiWatch",
+    "value_kk": "HiWatch",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:08.951Z",
+    "updated_at": "2026-05-03T17:26:08.954Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 31,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 5,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "IP recorders",
+    "value_ru": "IP видеорегистраторы",
+    "value_kk": "IP бейнетіркеушілер",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:08.957Z",
+    "updated_at": "2026-05-03T17:26:08.960Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 32,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 5,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:08.963Z",
+    "updated_at": "2026-05-03T17:26:08.966Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 33,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 5,
+    "name_en": "Channels",
+    "name_ru": "Каналы",
+    "name_kk": "Арналар",
+    "value_en": "8",
+    "value_ru": "8",
+    "value_kk": "8",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:08.968Z",
+    "updated_at": "2026-05-03T17:26:08.971Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 34,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 6,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-96128NI-M8/R",
+    "value_ru": "DS-96128NI-M8/R",
+    "value_kk": "DS-96128NI-M8/R",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:08.989Z",
+    "updated_at": "2026-05-03T17:26:08.992Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 35,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 6,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:08.995Z",
+    "updated_at": "2026-05-03T17:26:08.998Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 36,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 6,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "IP recorders",
+    "value_ru": "IP видеорегистраторы",
+    "value_kk": "IP бейнетіркеушілер",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.001Z",
+    "updated_at": "2026-05-03T17:26:09.004Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 37,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 6,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.007Z",
+    "updated_at": "2026-05-03T17:26:09.010Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 38,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 6,
+    "name_en": "Channels",
+    "name_ru": "Каналы",
+    "name_kk": "Арналар",
+    "value_en": "128",
+    "value_ru": "128",
+    "value_kk": "128",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.013Z",
+    "updated_at": "2026-05-03T17:26:09.015Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 39,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 7,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-7716NI-M4(STD)",
+    "value_ru": "DS-7716NI-M4(STD)",
+    "value_kk": "DS-7716NI-M4(STD)",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.031Z",
+    "updated_at": "2026-05-03T17:26:09.034Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 40,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 7,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.037Z",
+    "updated_at": "2026-05-03T17:26:09.040Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 41,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 7,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "IP recorders",
+    "value_ru": "IP видеорегистраторы",
+    "value_kk": "IP бейнетіркеушілер",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.042Z",
+    "updated_at": "2026-05-03T17:26:09.045Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 42,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 7,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.048Z",
+    "updated_at": "2026-05-03T17:26:09.050Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 43,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 7,
+    "name_en": "Channels",
+    "name_ru": "Каналы",
+    "name_kk": "Арналар",
+    "value_en": "16",
+    "value_ru": "16",
+    "value_kk": "16",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.053Z",
+    "updated_at": "2026-05-03T17:26:09.056Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 44,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 8,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-96256NI-I24(STD)",
+    "value_ru": "DS-96256NI-I24(STD)",
+    "value_kk": "DS-96256NI-I24(STD)",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.073Z",
+    "updated_at": "2026-05-03T17:26:09.076Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 45,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 8,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.079Z",
+    "updated_at": "2026-05-03T17:26:09.083Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 46,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 8,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "IP recorders",
+    "value_ru": "IP видеорегистраторы",
+    "value_kk": "IP бейнетіркеушілер",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.086Z",
+    "updated_at": "2026-05-03T17:26:09.090Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 47,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 8,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.093Z",
+    "updated_at": "2026-05-03T17:26:09.096Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 48,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 8,
+    "name_en": "Channels",
+    "name_ru": "Каналы",
+    "name_kk": "Арналар",
+    "value_en": "256",
+    "value_ru": "256",
+    "value_kk": "256",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.099Z",
+    "updated_at": "2026-05-03T17:26:09.102Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 49,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 9,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-2CE10DF0T-F",
+    "value_ru": "DS-2CE10DF0T-F",
+    "value_kk": "DS-2CE10DF0T-F",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.126Z",
+    "updated_at": "2026-05-03T17:26:09.129Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 50,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 9,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.132Z",
+    "updated_at": "2026-05-03T17:26:09.135Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 51,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 9,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "HD cameras",
+    "value_ru": "HD видеокамеры",
+    "value_kk": "HD бейнекамералар",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.138Z",
+    "updated_at": "2026-05-03T17:26:09.141Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 52,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 9,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.145Z",
+    "updated_at": "2026-05-03T17:26:09.148Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 53,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 9,
+    "name_en": "Resolution",
+    "name_ru": "Разрешение",
+    "name_kk": "Ажыратымдылық",
+    "value_en": "2MP",
+    "value_ru": "2MP",
+    "value_kk": "2MP",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.151Z",
+    "updated_at": "2026-05-03T17:26:09.154Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 54,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 9,
+    "name_en": "Camera type",
+    "name_ru": "Тип камеры",
+    "name_kk": "Камера түрі",
+    "value_en": "bullet",
+    "value_ru": "bullet",
+    "value_kk": "bullet",
+    "sort_order": 5,
+    "created_at": "2026-05-03T17:26:09.158Z",
+    "updated_at": "2026-05-03T17:26:09.161Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 55,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 10,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-2CE10DF3T-F",
+    "value_ru": "DS-2CE10DF3T-F",
+    "value_kk": "DS-2CE10DF3T-F",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.181Z",
+    "updated_at": "2026-05-03T17:26:09.184Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 56,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 10,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.187Z",
+    "updated_at": "2026-05-03T17:26:09.190Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 57,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 10,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "HD cameras",
+    "value_ru": "HD видеокамеры",
+    "value_kk": "HD бейнекамералар",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.194Z",
+    "updated_at": "2026-05-03T17:26:09.197Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 58,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 10,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.201Z",
+    "updated_at": "2026-05-03T17:26:09.204Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 59,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 10,
+    "name_en": "Resolution",
+    "name_ru": "Разрешение",
+    "name_kk": "Ажыратымдылық",
+    "value_en": "2MP",
+    "value_ru": "2MP",
+    "value_kk": "2MP",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.208Z",
+    "updated_at": "2026-05-03T17:26:09.211Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 60,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 10,
+    "name_en": "Camera type",
+    "name_ru": "Тип камеры",
+    "name_kk": "Камера түрі",
+    "value_en": "bullet",
+    "value_ru": "bullet",
+    "value_kk": "bullet",
+    "sort_order": 5,
+    "created_at": "2026-05-03T17:26:09.214Z",
+    "updated_at": "2026-05-03T17:26:09.217Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 61,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 11,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-2CE10DF8T-F",
+    "value_ru": "DS-2CE10DF8T-F",
+    "value_kk": "DS-2CE10DF8T-F",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.236Z",
+    "updated_at": "2026-05-03T17:26:09.239Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 62,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 11,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.243Z",
+    "updated_at": "2026-05-03T17:26:09.245Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 63,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 11,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "HD cameras",
+    "value_ru": "HD видеокамеры",
+    "value_kk": "HD бейнекамералар",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.249Z",
+    "updated_at": "2026-05-03T17:26:09.252Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 64,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 11,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.256Z",
+    "updated_at": "2026-05-03T17:26:09.259Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 65,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 11,
+    "name_en": "Resolution",
+    "name_ru": "Разрешение",
+    "name_kk": "Ажыратымдылық",
+    "value_en": "2MP",
+    "value_ru": "2MP",
+    "value_kk": "2MP",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.262Z",
+    "updated_at": "2026-05-03T17:26:09.265Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 66,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 11,
+    "name_en": "Camera type",
+    "name_ru": "Тип камеры",
+    "name_kk": "Камера түрі",
+    "value_en": "bullet",
+    "value_ru": "bullet",
+    "value_kk": "bullet",
+    "sort_order": 5,
+    "created_at": "2026-05-03T17:26:09.269Z",
+    "updated_at": "2026-05-03T17:26:09.272Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 67,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 12,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-2CE10HFT-E",
+    "value_ru": "DS-2CE10HFT-E",
+    "value_kk": "DS-2CE10HFT-E",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.292Z",
+    "updated_at": "2026-05-03T17:26:09.295Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 68,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 12,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.297Z",
+    "updated_at": "2026-05-03T17:26:09.300Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 69,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 12,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "HD cameras",
+    "value_ru": "HD видеокамеры",
+    "value_kk": "HD бейнекамералар",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.304Z",
+    "updated_at": "2026-05-03T17:26:09.307Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 70,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 12,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.310Z",
+    "updated_at": "2026-05-03T17:26:09.313Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 71,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 12,
+    "name_en": "Resolution",
+    "name_ru": "Разрешение",
+    "name_kk": "Ажыратымдылық",
+    "value_en": "2MP",
+    "value_ru": "2MP",
+    "value_kk": "2MP",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.315Z",
+    "updated_at": "2026-05-03T17:26:09.318Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 72,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 12,
+    "name_en": "Camera type",
+    "name_ru": "Тип камеры",
+    "name_kk": "Камера түрі",
+    "value_en": "bullet",
+    "value_ru": "bullet",
+    "value_kk": "bullet",
+    "sort_order": 5,
+    "created_at": "2026-05-03T17:26:09.321Z",
+    "updated_at": "2026-05-03T17:26:09.324Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 73,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 13,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "iDS-7204HUHI-M1/FA(C)",
+    "value_ru": "iDS-7204HUHI-M1/FA(C)",
+    "value_kk": "iDS-7204HUHI-M1/FA(C)",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.341Z",
+    "updated_at": "2026-05-03T17:26:09.344Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 74,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 13,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.346Z",
+    "updated_at": "2026-05-03T17:26:09.349Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 75,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 13,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "HD recorders",
+    "value_ru": "HD видеорегистраторы",
+    "value_kk": "HD бейнетіркеушілер",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.351Z",
+    "updated_at": "2026-05-03T17:26:09.355Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 76,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 13,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.358Z",
+    "updated_at": "2026-05-03T17:26:09.360Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 77,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 13,
+    "name_en": "Channels",
+    "name_ru": "Каналы",
+    "name_kk": "Арналар",
+    "value_en": "4",
+    "value_ru": "4",
+    "value_kk": "4",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.363Z",
+    "updated_at": "2026-05-03T17:26:09.366Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 78,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 14,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "iDS-7208HQHI-M1/FA(C)8A+8/4ALM",
+    "value_ru": "iDS-7208HQHI-M1/FA(C)8A+8/4ALM",
+    "value_kk": "iDS-7208HQHI-M1/FA(C)8A+8/4ALM",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.383Z",
+    "updated_at": "2026-05-03T17:26:09.386Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 79,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 14,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.389Z",
+    "updated_at": "2026-05-03T17:26:09.391Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 80,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 14,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "HD recorders",
+    "value_ru": "HD видеорегистраторы",
+    "value_kk": "HD бейнетіркеушілер",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.395Z",
+    "updated_at": "2026-05-03T17:26:09.398Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 81,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 14,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.401Z",
+    "updated_at": "2026-05-03T17:26:09.404Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 82,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 14,
+    "name_en": "Channels",
+    "name_ru": "Каналы",
+    "name_kk": "Арналар",
+    "value_en": "8",
+    "value_ru": "8",
+    "value_kk": "8",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.407Z",
+    "updated_at": "2026-05-03T17:26:09.409Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 83,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 15,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "iDS-7208HQHI-M2/S(C)",
+    "value_ru": "iDS-7208HQHI-M2/S(C)",
+    "value_kk": "iDS-7208HQHI-M2/S(C)",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.422Z",
+    "updated_at": "2026-05-03T17:26:09.424Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 84,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 15,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.427Z",
+    "updated_at": "2026-05-03T17:26:09.430Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 85,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 15,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "HD recorders",
+    "value_ru": "HD видеорегистраторы",
+    "value_kk": "HD бейнетіркеушілер",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.432Z",
+    "updated_at": "2026-05-03T17:26:09.435Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 86,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 15,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.438Z",
+    "updated_at": "2026-05-03T17:26:09.441Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 87,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 15,
+    "name_en": "Channels",
+    "name_ru": "Каналы",
+    "name_kk": "Арналар",
+    "value_en": "8",
+    "value_ru": "8",
+    "value_kk": "8",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.443Z",
+    "updated_at": "2026-05-03T17:26:09.446Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 88,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 16,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-7116HGHI-K1",
+    "value_ru": "DS-7116HGHI-K1",
+    "value_kk": "DS-7116HGHI-K1",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.458Z",
+    "updated_at": "2026-05-03T17:26:09.461Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 89,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 16,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.464Z",
+    "updated_at": "2026-05-03T17:26:09.466Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 90,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 16,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "HD recorders",
+    "value_ru": "HD видеорегистраторы",
+    "value_kk": "HD бейнетіркеушілер",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.469Z",
+    "updated_at": "2026-05-03T17:26:09.472Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 91,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 16,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.475Z",
+    "updated_at": "2026-05-03T17:26:09.478Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 92,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 16,
+    "name_en": "Channels",
+    "name_ru": "Каналы",
+    "name_kk": "Арналар",
+    "value_en": "16",
+    "value_ru": "16",
+    "value_kk": "16",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.481Z",
+    "updated_at": "2026-05-03T17:26:09.483Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 93,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 17,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-3E0318P-E/M",
+    "value_ru": "DS-3E0318P-E/M",
+    "value_kk": "DS-3E0318P-E/M",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.501Z",
+    "updated_at": "2026-05-03T17:26:09.504Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 94,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 17,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.507Z",
+    "updated_at": "2026-05-03T17:26:09.510Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 95,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 17,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "Network equipment",
+    "value_ru": "Сетевое оборудование",
+    "value_kk": "Желілік жабдық",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.513Z",
+    "updated_at": "2026-05-03T17:26:09.515Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 96,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 17,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.519Z",
+    "updated_at": "2026-05-03T17:26:09.522Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 97,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 17,
+    "name_en": "PoE",
+    "name_ru": "PoE",
+    "name_kk": "PoE",
+    "value_en": "Yes",
+    "value_ru": "Да",
+    "value_kk": "Иә",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.525Z",
+    "updated_at": "2026-05-03T17:26:09.527Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 98,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 18,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-3E0109P-E/M",
+    "value_ru": "DS-3E0109P-E/M",
+    "value_kk": "DS-3E0109P-E/M",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.539Z",
+    "updated_at": "2026-05-03T17:26:09.542Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 99,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 18,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.545Z",
+    "updated_at": "2026-05-03T17:26:09.547Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 100,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 18,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "Network equipment",
+    "value_ru": "Сетевое оборудование",
+    "value_kk": "Желілік жабдық",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.550Z",
+    "updated_at": "2026-05-03T17:26:09.553Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 101,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 18,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.556Z",
+    "updated_at": "2026-05-03T17:26:09.558Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 102,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 18,
+    "name_en": "PoE",
+    "name_ru": "PoE",
+    "name_kk": "PoE",
+    "value_en": "Yes",
+    "value_ru": "Да",
+    "value_kk": "Иә",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.561Z",
+    "updated_at": "2026-05-03T17:26:09.564Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 103,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 19,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-KV6113-WPE1",
+    "value_ru": "DS-KV6113-WPE1",
+    "value_kk": "DS-KV6113-WPE1",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.580Z",
+    "updated_at": "2026-05-03T17:26:09.583Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 104,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 19,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.586Z",
+    "updated_at": "2026-05-03T17:26:09.589Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 105,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 19,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "Intercom",
+    "value_ru": "Домофония",
+    "value_kk": "Домофония",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.592Z",
+    "updated_at": "2026-05-03T17:26:09.595Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 106,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 19,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.598Z",
+    "updated_at": "2026-05-03T17:26:09.600Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 107,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 19,
+    "name_en": "Camera type",
+    "name_ru": "Тип камеры",
+    "name_kk": "Камера түрі",
+    "value_en": "door-station",
+    "value_ru": "door-station",
+    "value_kk": "door-station",
+    "sort_order": 4,
+    "created_at": "2026-05-03T17:26:09.603Z",
+    "updated_at": "2026-05-03T17:26:09.606Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 108,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 19,
+    "name_en": "PoE",
+    "name_ru": "PoE",
+    "name_kk": "PoE",
+    "value_en": "Yes",
+    "value_ru": "Да",
+    "value_kk": "Иә",
+    "sort_order": 5,
+    "created_at": "2026-05-03T17:26:09.609Z",
+    "updated_at": "2026-05-03T17:26:09.612Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 109,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 20,
+    "name_en": "Article",
+    "name_ru": "Артикул",
+    "name_kk": "Артикул",
+    "value_en": "DS-1272ZJ-110",
+    "value_ru": "DS-1272ZJ-110",
+    "value_kk": "DS-1272ZJ-110",
+    "sort_order": 0,
+    "created_at": "2026-05-03T17:26:09.630Z",
+    "updated_at": "2026-05-03T17:26:09.634Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 110,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 20,
+    "name_en": "Brand",
+    "name_ru": "Бренд",
+    "name_kk": "Бренд",
+    "value_en": "Hikvision",
+    "value_ru": "Hikvision",
+    "value_kk": "Hikvision",
+    "sort_order": 1,
+    "created_at": "2026-05-03T17:26:09.638Z",
+    "updated_at": "2026-05-03T17:26:09.640Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 111,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 20,
+    "name_en": "Category",
+    "name_ru": "Категория",
+    "name_kk": "Санат",
+    "value_en": "Accessories",
+    "value_ru": "Аксессуары",
+    "value_kk": "Аксессуарлар",
+    "sort_order": 2,
+    "created_at": "2026-05-03T17:26:09.644Z",
+    "updated_at": "2026-05-03T17:26:09.646Z"
+  }
+},
+{
+  "model": "catalog.productspecification",
+  "pk": 112,
+  "fields": {
+    "created_by": null,
+    "updated_by": null,
+    "product": 20,
+    "name_en": "Stock status",
+    "name_ru": "Статус наличия",
+    "name_kk": "Қойма статусы",
+    "value_en": "On request",
+    "value_ru": "On request",
+    "value_kk": "On request",
+    "sort_order": 3,
+    "created_at": "2026-05-03T17:26:09.650Z",
+    "updated_at": "2026-05-03T17:26:09.652Z"
+  }
+},
+{
+  "model": "blog.blogpost",
+  "pk": 1,
+  "fields": {
+    "created_by": 1,
+    "updated_by": 1,
+    "slug": "how-to-choose-a-camera-for-a-warehouse",
+    "title_en": "How to choose a camera for a warehouse",
+    "title_ru": "Как выбрать камеру для склада",
+    "title_kk": "Қоймаға камераны қалай таңдау керек",
+    "excerpt_en": "Viewing angles, IR illumination and archive requirements for warehouse projects.",
+    "excerpt_ru": "Разбираем углы обзора, ИК-подсветку и требования к архиву.",
+    "excerpt_kk": "Көру бұрыштары, ИҚ жарықтандыру және архив талаптарын қарастырамыз.",
+    "body_en": "This article is imported from the current frontend content. Add the full editorial text in Django admin.",
+    "body_ru": "Как выбрать камеру для склада\r\n\r\nВыбор камеры видеонаблюдения для склада — важная задача для обеспечения безопасности и контроля процессов.\r\n\r\n1. Определите цели\r\n\r\nВам нужно:\r\n\r\nПредотвращение краж\r\nКонтроль сотрудников\r\nМониторинг товаров\r\nСоблюдение техники безопасности\r\n2. Тип камеры\r\nBullet (цилиндрические) — для улицы и дальнего обзора\r\nКупольные (Dome) — для помещений\r\nPTZ — для больших территорий\r\n3. Разрешение\r\n\r\nМинимум — Full HD (1080p). Для больших складов лучше 4K.\r\n\r\n4. Ночное видение\r\n\r\nОбязательно наличие:\r\n\r\nИК-подсветки\r\nКамер с хорошей работой при слабом освещении\r\n5. Размещение\r\n\r\nКамеры устанавливаются:\r\n\r\nНа входах и выходах\r\nВ проходах\r\nНа зонах погрузки\r\nВ слепых зонах\r\n6. Хранение данных\r\nВидеорегистратор (NVR)\r\nОблачное хранение\r\n\r\nЖелательно хранить записи минимум 7–30 дней.\r\n\r\n7. Умные функции\r\nДетекция движения\r\nРаспознавание людей/транспорта\r\nУведомления\r\n8. Надёжность\r\n\r\nВыбирайте камеры с защитой:\r\n\r\nIP66/IP67\r\nУстойчивость к температуре и пыли",
+    "body_kk": "Бұл мақала ағымдағы frontend контентінен импортталды. Толық мәтінді Django admin ішінде қосыңыз.",
+    "cover_image": "blog/ChatGPT_Image_3_мая_2026_г._17_59_35.png",
+    "published_at": "2026-04-11T19:00:00Z",
+    "is_published": true,
+    "seo_title": "How to choose a camera for a warehouse",
+    "seo_description": "Viewing angles, IR illumination and archive requirements for warehouse projects.",
+    "created_at": "2026-05-03T17:26:09.665Z",
+    "updated_at": "2026-05-03T17:37:28.084Z"
+  }
+},
+{
+  "model": "blog.blogpost",
+  "pk": 2,
+  "fields": {
+    "created_by": 1,
+    "updated_by": 1,
+    "slug": "poe-infrastructure-without-extra-cost",
+    "title_en": "PoE infrastructure without extra cost",
+    "title_ru": "PoE-инфраструктура без лишних затрат",
+    "title_kk": "Артық шығынсыз PoE инфрақұрылымы",
+    "excerpt_en": "What matters when planning a video surveillance network.",
+    "excerpt_ru": "Что важно учитывать при проектировании сети видеонаблюдения.",
+    "excerpt_kk": "Бейнебақылау желісін жобалауда нені ескеру керек.",
+    "body_en": "This article is imported from the current frontend content. Add the full editorial text in Django admin.",
+    "body_ru": "Эта статья импортирована из текущего frontend-контента. Полный редакционный текст добавьте в Django admin.",
+    "body_kk": "Бұл мақала ағымдағы frontend контентінен импортталды. Толық мәтінді Django admin ішінде қосыңыз.",
+    "cover_image": "blog/ChatGPT_Image_3_мая_2026_г._18_03_39.png",
+    "published_at": "2026-03-27T19:00:00Z",
+    "is_published": true,
+    "seo_title": "PoE infrastructure without extra cost",
+    "seo_description": "What matters when planning a video surveillance network.",
+    "created_at": "2026-05-03T17:26:09.668Z",
+    "updated_at": "2026-05-03T17:34:56.704Z"
+  }
+},
+{
+  "model": "blog.blogpost",
+  "pk": 3,
+  "fields": {
+    "created_by": 1,
+    "updated_by": 1,
+    "slug": "new-hikvision-acusense-solutions",
+    "title_en": "New Hikvision AcuSense solutions",
+    "title_ru": "Новые решения Hikvision AcuSense",
+    "title_kk": "Жаңа Hikvision AcuSense шешімдері",
+    "excerpt_en": "Smart analytics reduce false alarms.",
+    "excerpt_ru": "Умная аналитика снижает количество ложных тревог.",
+    "excerpt_kk": "Ақылды аналитика жалған дабыл санын азайтады.",
+    "body_en": "This article is imported from the current frontend content. Add the full editorial text in Django admin.",
+    "body_ru": "Эта статья импортирована из текущего frontend-контента. Полный редакционный текст добавьте в Django admin.",
+    "body_kk": "Бұл мақала ағымдағы frontend контентінен импортталды. Толық мәтінді Django admin ішінде қосыңыз.",
+    "cover_image": "blog/ChatGPT_Image_3_мая_2026_г._18_07_08.png",
+    "published_at": "2026-03-16T19:00:00Z",
+    "is_published": true,
+    "seo_title": "New Hikvision AcuSense solutions",
+    "seo_description": "Smart analytics reduce false alarms.",
+    "created_at": "2026-05-03T17:26:09.672Z",
+    "updated_at": "2026-05-03T17:35:04.840Z"
+  }
+}
+]

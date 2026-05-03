@@ -1,5 +1,4 @@
 import json
-import shutil
 import subprocess
 from datetime import datetime
 from pathlib import Path
@@ -209,13 +208,8 @@ class Command(BaseCommand):
             self.stdout.write(self.style.WARNING(f"No image found for {product.article} ({image_key})."))
             return
 
-        target_dir = settings.MEDIA_ROOT / "products"
-        target_dir.mkdir(parents=True, exist_ok=True)
-        target = target_dir / f"{image_key}{source.suffix.lower()}"
-        shutil.copy2(source, target)
-
         image = product.images.filter(is_main=True).first() or ProductImage(product=product, is_main=True)
-        image.image = f"products/{target.name}"
+        image.image = f"products/{image_key}{source.suffix.lower()}"
         image.alt_en = product.name_en
         image.alt_ru = product.name_ru
         image.alt_kk = product.name_kk

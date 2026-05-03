@@ -1,7 +1,6 @@
 import React from "react";
 import { HashRouter } from "react-router-dom";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
 import App from "./app/App.jsx";
 import { BackendDataProvider } from "./shared/hooks/useLocalizedCatalog.js";
 import { AppPreferencesProvider } from "./shared/i18n/AppPreferences.jsx";

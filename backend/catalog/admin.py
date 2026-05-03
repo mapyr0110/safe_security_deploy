@@ -91,7 +91,7 @@ class ProductImageAdmin(AuditAdminMixin, ExportCsvMixin, admin.ModelAdmin):
     def image_preview(self, obj):
         if not obj.image:
             return "-"
-        return format_html('<img src="{}" style="height: 56px; width: auto;" />', obj.image.url)
+        return format_html("{}", obj.image)
 
 
 @admin.register(ProductSpecification)

@@ -1,10 +1,6 @@
-import shutil
-import tempfile
 from datetime import timedelta
 
-from django.core.files.uploadedfile import SimpleUploadedFile
 from django.contrib import admin
-from django.test import override_settings
 from django.utils import timezone
 from rest_framework import status
 from rest_framework.test import APITestCase
@@ -14,12 +10,6 @@ from .models import BlogPost
 
 class BlogApiTests(APITestCase):
     def setUp(self):
-        self.media_root = tempfile.mkdtemp()
-        self.media_override = override_settings(MEDIA_ROOT=self.media_root)
-        self.media_override.enable()
-        self.addCleanup(self.media_override.disable)
-        self.addCleanup(shutil.rmtree, self.media_root, ignore_errors=True)
-
         self.post = BlogPost.objects.create(
             slug="warehouse-camera-guide",
             title_en="Warehouse camera guide",
@@ -31,7 +21,7 @@ class BlogApiTests(APITestCase):
             body_en="Full English body.",
             body_ru="РџРѕР»РЅС‹Р№ СЂСѓСЃСЃРєРёР№ С‚РµРєСЃС‚.",
             body_kk="ТљР°Р·Р°Т›С€Р° С‚РѕР»С‹Т› РјУ™С‚С–РЅ.",
-            cover_image=SimpleUploadedFile("cover.jpg", b"image-bytes", content_type="image/jpeg"),
+            cover_image="blog/cover.jpg",
             is_published=True,
             published_at=timezone.now(),
             seo_title="Warehouse camera SEO",

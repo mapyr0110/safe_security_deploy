@@ -1,5 +1,3 @@
-from django.conf import settings
-from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
@@ -28,6 +26,3 @@ urlpatterns = [
     path("api/b2b/documents/", B2BDocumentsView.as_view(), name="b2b-documents"),
     path("api/", include(router.urls)),
 ]
-
-if settings.SERVE_MEDIA:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

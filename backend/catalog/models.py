@@ -115,7 +115,10 @@ class Product(AuditFields):
 
 class ProductImage(AuditFields):
     product = models.ForeignKey(Product, related_name="images", on_delete=models.CASCADE)
-    image = models.ImageField(upload_to="products/")
+    image = models.CharField(
+        max_length=255,
+        help_text="Frontend static image path, for example products/ipcam1.jpeg or ipcam1.jpeg.",
+    )
     alt_en = models.CharField(max_length=255, blank=True)
     alt_ru = models.CharField(max_length=255, blank=True)
     alt_kk = models.CharField(max_length=255, blank=True)

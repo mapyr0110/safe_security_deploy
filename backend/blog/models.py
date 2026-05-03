@@ -15,7 +15,11 @@ class BlogPost(AuditFields):
     body_en = models.TextField(blank=True)
     body_ru = models.TextField(blank=True)
     body_kk = models.TextField(blank=True)
-    cover_image = models.ImageField(upload_to="blog/", blank=True)
+    cover_image = models.CharField(
+        max_length=255,
+        blank=True,
+        help_text="Frontend static image path, for example blog/cover.png or cover.png.",
+    )
     published_at = models.DateTimeField(default=timezone.now)
     is_published = models.BooleanField(default=False)
     seo_title = models.CharField(max_length=255, blank=True)

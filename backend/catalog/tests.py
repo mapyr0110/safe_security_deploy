@@ -1,9 +1,4 @@
-import shutil
-import tempfile
-
-from django.core.files.uploadedfile import SimpleUploadedFile
 from django.contrib import admin
-from django.test import override_settings
 from rest_framework import status
 from rest_framework.test import APITestCase
 
@@ -15,12 +10,6 @@ from .models import Brand, Category, Product, ProductImage, ProductSpecification
 
 class CatalogApiTests(APITestCase):
     def setUp(self):
-        self.media_root = tempfile.mkdtemp()
-        self.media_override = override_settings(MEDIA_ROOT=self.media_root)
-        self.media_override.enable()
-        self.addCleanup(self.media_override.disable)
-        self.addCleanup(shutil.rmtree, self.media_root, ignore_errors=True)
-
         self.category = Category.objects.create(
             slug="ip-cameras",
             name_en="IP cameras",
@@ -70,7 +59,7 @@ class CatalogApiTests(APITestCase):
         )
         ProductImage.objects.create(
             product=self.product,
-            image=SimpleUploadedFile("camera.jpg", b"image-bytes", content_type="image/jpeg"),
+            image="products/camera.jpg",
             alt_en="Camera front",
             alt_ru="Камера спереди",
             alt_kk="Камера алдынан",
@@ -257,15 +246,14 @@ class CatalogApiTests(APITestCase):
         self.assertEqual(brand.slug, "axis-communications")
         self.assertEqual(product.slug, "auto-slug-camera")
 
-    def test_product_image_upload_path(self):
+    def test_product_image_static_path(self):
         image = ProductImage.objects.create(
             product=self.product,
-            image=SimpleUploadedFile("admin-camera.jpg", b"image-bytes", content_type="image/jpeg"),
+            image="products/admin-camera.jpg",
             alt_en="Admin camera",
         )
 
-        self.assertTrue(image.image.name.startswith("products/"))
-        self.assertTrue(image.image.name.endswith(".jpg"))
+        self.assertEqual(image.image, "products/admin-camera.jpg")
 
     def test_admin_models_are_registered(self):
         for model in [Category, Brand, Product, ProductImage, ProductSpecification, Lead, PartnerProfile, BlogPost]:

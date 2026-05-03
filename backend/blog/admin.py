@@ -38,4 +38,4 @@ class BlogPostAdmin(AuditAdminMixin, ExportCsvMixin, admin.ModelAdmin):
     def cover_preview(self, obj):
         if not obj.cover_image:
             return "-"
-        return format_html('<img src="{}" style="height: 72px; width: auto;" />', obj.cover_image.url)
+        return format_html("{}", obj.cover_image)

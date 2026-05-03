@@ -63,3 +63,4 @@ temp/
 *.tmp
 *.bak
 backend-media.zip
+*_backup.py
